@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="122.09376">
+<testcase classname="User is Booking room in adactinhotel webpage" name="Verifying Booking id in adactinhotel webpage" time="37.294437">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter  "One", "one", "Chennai",  "9876543219876543","324" and payment details.passed
+And user clicks book now button.............................................passed
+Then validate the booking id................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is Booking room in adactinhotel webpage" name="Verifying Booking id in adactinhotel webpage 2" time="14.337867">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter  "Two", "two", "Chennai",  "9876543219876543","324" and payment details.passed
+And user clicks book now button.............................................passed
+Then validate the booking id................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is Booking room in adactinhotel webpage" name="Verifying Booking id in adactinhotel webpage 3" time="13.049353">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter  "Three", "three", "Chennai",  "9876543219876543","324" and payment details.passed
+And user clicks book now button.............................................passed
+Then validate the booking id................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is Booking room in adactinhotel webpage" name="Verifying Booking id in adactinhotel webpage 4" time="15.930963">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter  "Four", "four", "Chennai",  "9876543219876543","324" and payment details.passed
+And user clicks book now button.............................................passed
+Then validate the booking id................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is Booking room in adactinhotel webpage" name="Verifying Booking id in adactinhotel webpage 5" time="13.008295">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter  "Five", "five", "Chennai",  "9876543219876543","324" and payment details.passed
+And user clicks book now button.............................................passed
+Then validate the booking id................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is Booking room in adactinhotel webpage" name="Verify login function in Adactin" time="15.133568">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter  firstname, lastName and payment details....................passed
+And user clicks the book now button.........................................passed
+Then validate the booking id by printing it.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is Booking room in adactinhotel webpage" name="user verify login" time="13.339277">
+<system-out><![CDATA[Given User is on adactinhotel application...................................passed
+When User loging in by entering username and password.......................passed
+And user enters location, hotels, room-type, noOfRooms , checkin, checkout, adults, child per room and searchHotels.passed
+And user selects the hotel and clicks continue button.......................passed
+When user enter   details...................................................passed
+And user clicking the  book now button......................................passed
+Then validating the booking id..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
